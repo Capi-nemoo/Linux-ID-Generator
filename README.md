@@ -1,2 +1,2 @@
-# Linux-ID-Generator
-generador de linux id para flexearle a la morris culona i use arch btw
+# Linux ID Generator
+This project generates custom Linux ID cards with chosen styles and distribution vibes.
