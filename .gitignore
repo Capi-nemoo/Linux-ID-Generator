@@ -1,0 +1,56 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual environment
+venv/
+.env
+
+# Logs
+var/logs/
+*.log
+
+# Cache files
+var/cache/
+*.tmp
+*.cache
+
+# System files
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*.bak
+*~
+
+# Node modules (if using npm for any part)
+node_modules/
+
+# Static build files
+dist/
+build/
+
+# Generated files
+var/ids/
+
+# Secrets
+.env
+
+# OS-generated files
+*.~lock.*
+*.lock
+*.lockfile
+*.backup
+.idea/
+.vscode/
+*.iml
+
+# IDE and Editor-specific files
+*.sublime-workspace
+*.sublime-project
+
+# Nginx config backups or temporary edits
+etc/nginx.conf.bak
+
