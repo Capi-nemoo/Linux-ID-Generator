@@ -1,0 +1,43 @@
+/* Estilo general del cuerpo */
+
+body {
+
+    background-color: #282828; /* Gris oscuro Gruvbox */
+    color: #ebdbb2; /* Gris claro Gruvbox */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Links */
+a {
+    color: #83a598; /* Azul pastel Gruvbox */
+    text-decoration: none;
+}
+
+form label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+form input, form select, form button {
+    display: block;
+    width: 100%; /* Ocupa todo el ancho disponible */
+    margin-bottom: 15px;
+    padding: 10px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #3c3836; /* Gris medio Gruvbox */
+    color: white;
+}
+
+form button {
+    background-color: #b8bb26; /* Verde Gruvbox */
+    cursor: pointer;
+}
+
+form button:hover {
+    background-color: #98971a; /* Verde oscuro Gruvbox */
+}
+

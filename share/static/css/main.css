@@ -65,7 +65,7 @@ button {
     background-color: #b8bb26; /* Verde Gruvbox */
     color: #282828; /* Fondo oscuro para contraste */
     border: none;
-    padding: 10px 20px;
+    padding: 10px 30px;
     border-radius: 5px;
     cursor: pointer;
 }

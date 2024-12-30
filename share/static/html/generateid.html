@@ -1,0 +1,58 @@
+<!DOCTYPE html> <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux ID Generator</title>
+    <link rel="stylesheet" href="../css/id-generator.css">
+</head>
+<body>
+    <header>
+        <h1>Linux ID Generator</h1>
+    </header>
+        <nav>
+            <a href="./share/static/html/home.html">Home -</a>
+            <a href="./share/static/html/generateid.html">Generate ID -</a>
+            <a href="./share/static/html/manifestos.html">Manifestos -</a>
+            <a href="./share/static/html/about.html">About</a>
+        </nav>
+    <main class="container">
+        <section>
+            <h2>Generate Your Custom Linux ID</h2>
+            <form id="id-generator-form">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" placeholder="Enter your username" required>
+                
+                <label for="distro">Select your Linux Distribution:</label>
+                <select id="distro" name="distro" required>
+                    <option value="arch">Arch Linux</option>
+                    <option value="ubuntu">Ubuntu</option>
+                    <option value="fedora">Fedora</option>
+                    <option value="debian">Debian</option>
+                </select>
+                
+                <label for="theme">Choose a Theme:</label>
+                <select id="theme" name="theme" required>
+                    <option value="dark">Dark</option>
+                    <option value="light">Light</option>
+                    <option value="gruvbox">Gruvbox</option>
+                </select>
+                
+                <label for="upload">Upload an Image:</label>
+                <input type="file" id="upload" name="upload" accept="image/*">
+                
+                <button type="submit">Generate ID</button>
+            </form>
+        </section>
+        <section id="output">
+            <h2>Your Generated ID</h2>
+            <div id="id-card">
+                <!-- Aquí aparecerá la ID generada -->
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p></p>
+    </footer>
+</body>
+</html>
+
