@@ -1,33 +1,87 @@
+<!-- index.html -->
+<!-- 
+==================================================
+File: index.html
+Description: Main entry point website. 
+Dependencies: Includes references to modularized components and scripts. 
+==================================================
+-->
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Renato Ramirez </title>
-    <link rel="stylesheet" href="./share/static/css/main.css"> <!-- css location -->
+    <link rel="stylesheet" href="./styles/base.css">
+    <link rel="stylesheet" href="./styles/theme.css">
+    <link rel="stylesheet" href="./styles/layout.css">
+    <link rel="stylesheet" href="./styles/icons.css">
+    <link rel="stylesheet" href="./styles/gitstats.css">
 </head>
+
 <body>
+
     <header>
         <h1>Renato Ramirez's Webpage</h1>
-        <img src="./share/static/images/assets/images/renalocura.jpg" alt="2022 Houston TX">
-        <nav> 
-            <link rel="html" href="./share/components/html/nav.html"> <!-- css location -->
+        
+        <div class="image-slider">
+            <!-- The slider component will dynamically load from slider.js -->
+            <button id="prev-btn">←</button>
+            <img id="slider-image" src="./assets/images/renalocura.jpg" alt="Imagen 1">
+            <button id="next-btn">→</button>
+        </div>
+
+        <nav>
+            <!-- Navigation menu moved to components/html/nav.html -->
+            <a href="./pages/home.html">Home -</a>
+            <a href="./pages/generateid.html">Software -</a>
+            <a href="./pages/generateid.html">Hardware -</a>
+            <a href="./pages/generateid.html">Linux ID -</a>
+            <a href="./pages/generateid.html">Neofetch ID -</a>
+            <a href="./pages/manifestos.html">Manifestos -</a>
+            <a href="./pages/chat.html">chat -</a>
+            <a href="./pages/LICENSE.html">Licenses -</a>
+            <a href="./pages/about.html">About</a>
+
+
         </nav>
     </header>
-
-    <!-- Main content area -->
+        
     <main>
-        <h2>Welcome to the Linux ID Generator</h2>
-        <p>Create your custom Linux ID cards with your preferred style and vibe.</p>
-        <!--  dynamic ID card generation (handled on the backend) -->
-        <div id="id-card-placeholder">
-            <!-- generated ID cards here -->
-        </div>
-    </main>
 
+    <div class="icon-row">
+            <img class="small-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/bash/bash-original.svg" alt="bash logo" />
+            <img class="small-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/cplusplus/cplusplus-original.svg" alt="cplusplus logo" />
+            <img class="small-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ansible/ansible-original.svg" alt="ansible logo" />
+            <img class="small-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="python logo" />
+            <img class="small-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vim/vim-original.svg" alt="vim logo" />
+            <img class="small-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/gentoo/gentoo-plain.svg" alt="gentoo logo" />
+            <img class="small-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/debian/debian-original.svg" alt="debian logo" />
+            <img class="small-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nixos/nixos-original.svg" alt="nixos logo" />
+            <img class="small-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/terraform/terraform-original.svg" alt="terraform logo" />
+    </div>
+
+<section class="github-commits">
+    <h2>My GitHub Stats</h2>
+    
+    <div align="left">
+        <img src="https://github-profile-trophy.vercel.app?username=capi-nemoo&theme=nord&column=-1&row=1&margin-w=8&margin-h=8&no-bg=true&no-frame=true&order=4" height="150" alt="trophy graph"  />
+        <img src="./assets/images/contributions.png"
+    </div>
+
+
+        <h2>Welcome to my Website</h2>
+        <p>bash <3 </p>
+
+
+    </main>
+    
     <footer>
+        <!-- Footer moved to components/html/footer.html -->
         <p>F** Microsoft </p>
     </footer>
+
+    <script src="./components/js/slider.js"></script>
 </body>
 </html>
-

@@ -74,3 +74,32 @@ button:hover {
     background-color: #98971a; /* Verde más oscuro Gruvbox */
 }
 
+.image-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    gap: 10px;
+}
+
+.image-slider img {
+    max-width: 80%;
+    height: auto;
+    border: 1px solid #fabd2f; /* Amarillo Gruvbox */
+    border-radius: 5px;
+}
+
+.image-slider button {
+    background-color: #b8bb26; /* Verde Gruvbox */
+    color: #282828;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+}
+
+.image-slider button:hover {
+    background-color: #98971a; /* Verde oscuro Gruvbox */
+}
+

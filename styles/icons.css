@@ -1,0 +1,20 @@
+.icon-row {
+    display: flex;
+    align-items: center; /* Centra verticalmente los íconos */
+    justify-content: center; /* Alinea los íconos a la izquierda */
+    gap: 18px; /* Elimina el espaciado entre íconos */
+}
+
+.small-icon {
+    width: 50px; /* Tamaño exacto */
+    height: 50px;
+    margin: 0; /* Elimina márgenes de cada ícono */
+    padding: 11; /* Elimina padding de cada ícono */
+    object-fit: contain; /* Asegura proporciones correctas */
+    transition: transform 0.3s ease-in-out; /* Animación suave */
+}
+
+
+.small-icon:hover {
+    transform: scale(1.2); /* Zoom suave al pasar el ratón */
+}

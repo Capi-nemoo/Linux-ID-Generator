@@ -1,0 +1,32 @@
+/* Layouts y distribución */
+nav {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+img {
+    display: block;
+    margin: 20px auto; /* Centra horizontalmente */
+    max-width: 100%; /* Asegura que no exceda el ancho del contenedor */
+    height: auto; /* Mantiene la proporción */
+}
+
+header h1 {
+    text-align: center;
+}
+
+.image-slider {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px auto;
+    gap: 10px;
+}
+
+.image-slider img {
+    max-width: 80%;
+    height: auto;
+    border-radius: 5px;
+}
+
+

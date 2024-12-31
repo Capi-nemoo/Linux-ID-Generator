@@ -1,0 +1,40 @@
+
+/* Reset básico */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Estilo general del cuerpo */
+body {
+    background-color: #282828; /* Gris oscuro Gruvbox */
+    color: #ebdbb2; /* Gris claro Gruvbox */
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Encabezados */
+h1, h2, h3, h4, h5, h6 {
+    margin-bottom: 20px;
+}
+
+/* Párrafos */
+p {
+    margin-bottom: 15px;
+}
+
+/* Links */
+a {
+    color: #83a598; /* Azul pastel Gruvbox */
+    text-decoration: none;
+}
+
+/* Contenedores */
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+

@@ -1,0 +1,28 @@
+/* Paleta de colores y estilos */
+h1, h2, h3, h4, h5, h6 {
+    color: #fabd2f; /* Amarillo Gruvbox */
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.container {
+    background: #3c3836; /* Gris medio Gruvbox */
+    border-radius: 10px;
+}
+
+/* Botones */
+button {
+    background-color: #b8bb26; /* Verde Gruvbox */
+    color: #282828; /* Fondo oscuro para contraste */
+    border: none;
+    padding: 10px 30px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #98971a; /* Verde más oscuro Gruvbox */
+}
+
