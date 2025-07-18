@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Linux-ID</title>
+    <link rel="stylesheet" href="styles/main.css">
+</head>
+<body>
+    <div class="topbar">
+        <a href="index.html">Home</a>
+        <a href="pictures.html">Pictures</a>
+        <a href="art.html">Art</a>
+        <a href="resume.html">Resume</a>
+        <a href="linux-id.html" class="active">Linux-ID</a>
+        <a href="about.html">About</a>
+        <a href="manifiestos.html">Manifiestos</a>
+    </div>
+    <div class="container">
+        <h1>Linux ID Generator</h1>
+        <p>Welcome to the Linux ID Generator main page!</p>
+        <button id="generateBtn">Generate ID</button>
+        <div id="id-card" class="id-card" style="display:none;">
+            <div class="avatar">
+                <img id="avatar-img" src="https://avatars.dicebear.com/api/identicon/linux.svg" alt="Avatar"/>
+            </div>
+            <div class="info">
+                <div><strong>ID:</strong> <span id="card-id"></span></div>
+                <div><strong>Username:</strong> <span id="card-username"></span></div>
+                <div><strong>Distro:</strong> <span id="card-distro"></span></div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/main.js"></script>
+</body>
+</html>
